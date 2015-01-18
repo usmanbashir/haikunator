@@ -1,6 +1,6 @@
 # Haikunator
 
-TODO: Write a gem description
+Generate Heroku-like memorable random names to use in your apps or anywhere else.
 
 ## Installation
 
@@ -18,7 +18,23 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Haikunator is pretty simple. There is nothing to configure and it only has a single method, `.haikunate`:
+
+```ruby
+Haikunator.haikunate # => "rough-snowflake-1142"
+
+# Token range
+Haikunator.haikunate(100) # => "nameless-star-13"
+
+# Don't include the token
+Haikunator.haikunate(0) # => "long-flower"
+
+# Use a different delimiter
+Haikunator.haikunate(9999, '.') # => "cool.leaf.6743"
+
+# No token, no delimiter
+Haikunator.haikunate(0, ' ') # => "green fire"
+```
 
 ## Contributing
 
