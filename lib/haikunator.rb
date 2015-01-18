@@ -4,7 +4,7 @@ require 'securerandom'
 module Haikunator
   class << self
 
-    def generate(token_range = 9999, delimiter = '-')
+    def haikunate(token_range = 9999, delimiter = '-')
       rnd = (rand * (2 ** 12)).floor
 
       sections = []
@@ -14,7 +14,6 @@ module Haikunator
 
       sections.compact.join(delimiter)
     end
-    alias_method :haikunate, :generate
 
   private
 
@@ -23,8 +22,7 @@ module Haikunator
     end
 
     def adjectives
-      %w[
-        autumn hidden bitter misty silent empty dry dark
+      %w[autumn hidden bitter misty silent empty dry dark
         summer icy delicate quiet white cool spring winter
         patient twilight dawn crimson wispy weathered blue
         billowing broken cold damp falling frosty green
@@ -32,13 +30,11 @@ module Haikunator
         red rough still small sparkling throbbing shy
         wandering withered wild black young holy solitary
         fragrant aged snowy proud floral restless divine
-        polished ancient purple lively nameless
-      ]
+        polished ancient purple lively nameless]
     end
 
     def nouns
-      %w[
-        waterfall river breeze moon rain wind sea morning
+      %w[waterfall river breeze moon rain wind sea morning
         snow lake sunset pine shadow leaf dawn glitter
         forest hill cloud meadow sun glade bird brook
         butterfly bush dew dust field fire flower firefly
@@ -46,8 +42,7 @@ module Haikunator
         snowflake silence sound sky shape surf thunder
         violet water wildflower wave water resonance sun
         wood dream cherry tree fog frost voice paper
-        frog smoke star
-      ]
+        frog smoke star]
     end
 
   end
