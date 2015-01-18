@@ -1,5 +1,7 @@
 # Haikunator
 
+[![Gem Version](https://badge.fury.io/rb/haikunator.svg)](http://badge.fury.io/rb/haikunator)
+
 Generate Heroku-like memorable random names to use in your apps or anywhere else.
 
 ## Installation
