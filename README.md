@@ -1,6 +1,7 @@
 # Haikunator
 
 [![Gem Version](https://badge.fury.io/rb/haikunator.svg)](http://badge.fury.io/rb/haikunator)
+[![Build Status](https://travis-ci.org/usmanbashir/haikunator.svg?branch=master)](https://travis-ci.org/usmanbashir/haikunator)
 
 Generate Heroku-like memorable random names to use in your apps or anywhere else.
 
@@ -38,10 +39,20 @@ Haikunator.haikunate(9999, '.') # => "cool.leaf.6743"
 Haikunator.haikunate(0, ' ') # => "green fire"
 ```
 
+## History
+
+View the [changelog](https://github.com/usmanbashir/haikunator/blob/master/CHANGELOG.md)
+
 ## Contributing
 
-1. Fork it ( https://github.com/usmanbashir/haikunator/fork )
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create a new Pull Request
+Everyone is encouraged to help improve this project. Here are a few ways you can help:
+
+- [Report bugs](https://github.com/usmanbashir/haikunator/issues)
+- Fix bugs and [submit pull requests](https://github.com/usmanbashir/haikunator/pulls)
+- Write, clarify, or fix documentation
+- Suggest or add new features
+
+
+## License
+
+MIT
