@@ -1,3 +1,6 @@
+require 'coveralls'
+Coveralls.wear!
+
 require 'haikunator'
 
 RSpec.configure do |config|

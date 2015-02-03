@@ -2,6 +2,7 @@
 
 [![Gem Version](https://badge.fury.io/rb/haikunator.svg)](http://badge.fury.io/rb/haikunator)
 [![Build Status](https://travis-ci.org/usmanbashir/haikunator.svg?branch=master)](https://travis-ci.org/usmanbashir/haikunator)
+[![Coverage Status](https://coveralls.io/repos/usmanbashir/haikunator/badge.svg)](https://coveralls.io/r/usmanbashir/haikunator)
 
 Generate Heroku-like memorable random names to use in your apps or anywhere else.
 
