@@ -1,10 +1,10 @@
-require 'haikunator/version'
-require 'securerandom'
+require "haikunator/version"
+require "securerandom"
 
 module Haikunator
   class << self
 
-    def haikunate(token_range = 9999, delimiter = '-')
+    def haikunate(token_range = 9999, delimiter = "-")
       rnd = (rand * (2 ** 12)).floor
 
       sections = []
