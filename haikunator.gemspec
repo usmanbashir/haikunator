@@ -8,8 +8,9 @@ Gem::Specification.new do |spec|
   spec.version       = Haikunator::VERSION
   spec.authors       = ["Usman Bashir"]
   spec.email         = ["me@usmanbashir.com"]
-  spec.summary       = %q{Heroku-like random name generator.}
-  spec.description   = %q{Generate memorable random names to use in your apps or anywhere else.}
+  spec.summary       = "Heroku-like random name generator."
+  spec.description   = "Generate memorable random names to use in your apps"\
+                       " or anywhere else."
   spec.homepage      = "https://github.com/usmanbashir/haikunator"
   spec.license       = "MIT"
 

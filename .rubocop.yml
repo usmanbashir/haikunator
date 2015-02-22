@@ -3,3 +3,12 @@ AllCops:
 
 Style/StringLiterals:
   EnforcedStyle: double_quotes
+
+Documentation:
+  Enabled: false
+
+Style/RegexpLiteral:
+  Enabled: false
+
+Metrics/LineLength:
+  Max: 90
