@@ -22,7 +22,7 @@ module Haikunator
     end
 
     def random_seed
-      (rand * (2**12)).floor
+      (SecureRandom.random_number * (2**12)).floor
     end
 
     def token(range)
