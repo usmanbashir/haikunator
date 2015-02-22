@@ -4,17 +4,26 @@ require "securerandom"
 module Haikunator
   class << self
     def haikunate(token_range = 9999, delimiter = "-")
-      rnd = (rand * (2**12)).floor
+      seed = random_seed
 
-      sections = []
-      sections << adjectives[rnd % adjectives.length]
-      sections << nouns[rnd % nouns.length]
-      sections << token(token_range)
+      build(seed, token_range, delimiter)
+    end
+
+    private
+
+    def build(seed, token_range, delimiter)
+      sections = [
+        adjectives[seed % adjectives.length],
+        nouns[seed % nouns.length],
+        token(token_range)
+      ]
 
       sections.compact.join(delimiter)
     end
 
-    private
+    def random_seed
+      (rand * (2**12)).floor
+    end
 
     def token(range)
       SecureRandom.random_number(range) if range > 0
