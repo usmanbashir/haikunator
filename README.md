@@ -48,3 +48,11 @@ Everyone is encouraged to help improve this project. Here are a few ways you can
 - Fix bugs and [submit pull requests](https://github.com/usmanbashir/haikunator/pulls)
 - Write, clarify, or fix documentation
 - Suggest or add new features
+
+## Other Languages
+
+Haikunator is also available in other languages. Check them out:
+
+- Node: https://github.com/AtroxDev/haikunatorjs
+- Python: https://github.com/AtroxDev/haikunator
+- Go: https://github.com/yelinaung/go-haikunator
