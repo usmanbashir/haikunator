@@ -49,10 +49,27 @@ Everyone is encouraged to help improve this project. Here are a few ways you can
 - Write, clarify, or fix documentation
 - Suggest or add new features
 
-## Other Languages
+## Language Ports
 
-Haikunator is also available in other languages. Check them out:
+Haikunator has also been ported to other languages. Though, these projects are not 
+affiliated with or endorsed by me, but check them out:
 
-- Node: https://github.com/AtroxDev/haikunatorjs
-- Python: https://github.com/AtroxDev/haikunator
-- Go: https://github.com/yelinaung/go-haikunator
+- Go:
+  - [Go-Haikunator](https://github.com/yelinaung/go-haikunator)
+  - [Haikunator](https://github.com/gjohnson/haikunator)
+  - [Haikunator](https://github.com/taion809/haikunator)
+- JavaScript:
+  - [HaikunatorJS](https://github.com/Atrox/haikunatorjs)
+- Python:
+  - [PyHaikunator](https://github.com/ferhatelmas/pyhaikunator)
+  - [HaikunatorPy](https://github.com/Atrox/haikunatorpy)
+- PHP:
+  - [HaikunatorPHP](https://github.com/Atrox/haikunatorphp)
+- Elixir:
+  - [Haikunator](https://github.com/knrz/Haikunator)
+- .NET:
+  - [Haikunator.NET](https://github.com/Atrox/haikunator.net)
+- Java:
+  - [HaikunatorJAVA](https://github.com/Atrox/haikunatorjava)
+- Dart:
+  - [HaikunatorDART](https://github.com/Atrox/haikunatordart)
