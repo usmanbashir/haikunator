@@ -73,3 +73,5 @@ affiliated with or endorsed by me, but check them out:
   - [HaikunatorJAVA](https://github.com/Atrox/haikunatorjava)
 - Dart:
   - [HaikunatorDART](https://github.com/Atrox/haikunatordart)
+- Rust
+  - [rust-haikunator](https://github.com/nishanths/rust-haikunator)
