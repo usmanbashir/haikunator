@@ -9,16 +9,17 @@ module Haikunator
       token_range = args[0] || 9999
       delimiter = args[1] || "-"
       adjective_array = args[2] || adjectives
+      noun_array = args[3] || nouns
 
-      build(seed, token_range, delimiter, adjective_array)
+      build(seed, token_range, delimiter, adjective_array, noun_array)
     end
 
     private
 
-    def build(seed, token_range, delimiter, adjective_array)
+    def build(seed, token_range, delimiter, adjective_array, noun_array)
       sections = [
         adjective_array[seed % adjective_array.length],
-        nouns[seed % nouns.length],
+        noun_array[seed % noun_array.length],
         token(token_range)
       ]
 

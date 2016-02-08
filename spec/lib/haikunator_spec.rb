@@ -42,9 +42,18 @@ describe Haikunator do
 
   context "use custom setup" do
     context "with custom adjectives" do
-      it "generates a name like shiny-post-2378" do
-        name = Haikunator.haikunate(nil, nil, ['frenzied', 'accurate', 'tenacious'])
-        expect(['frenzied', 'accurate', 'tenacious']).to include name.split('-').first
+      it "generates a name like accurate-league-7635" do
+        adjective_array = ['frenzied', 'accurate', 'tenacious']
+        name = Haikunator.haikunate(nil, nil, adjective_array)
+        expect(adjective_array).to include name.split('-').first
+      end
+    end
+
+    context "with custom nouns" do
+      it "generates a name like accurate-league-7635" do
+        noun_array = ['post', 'field', 'league']
+        name = Haikunator.haikunate(nil, nil, nil, noun_array)
+        expect(noun_array).to include name.split('-')[1]
       end
     end
   end
