@@ -3,17 +3,21 @@ require "securerandom"
 
 module Haikunator
   class << self
-    def haikunate(token_range = 9999, delimiter = "-")
+    def haikunate(*args)
       seed = random_seed
 
-      build(seed, token_range, delimiter)
+      token_range = args[0] || 9999
+      delimiter = args[1] || "-"
+      adjective_array = args[2] || adjectives
+
+      build(seed, token_range, delimiter, adjective_array)
     end
 
     private
 
-    def build(seed, token_range, delimiter)
+    def build(seed, token_range, delimiter, adjective_array)
       sections = [
-        adjectives[seed % adjectives.length],
+        adjective_array[seed % adjective_array.length],
         nouns[seed % nouns.length],
         token(token_range)
       ]
