@@ -22,7 +22,9 @@ Or install it yourself as:
 
 ## Usage
 
-Haikunator is pretty simple. There is nothing to configure and it only has a single method, `.haikunate`:
+### Default
+
+Using the default Haikunator is pretty simple. There is nothing to configure and it only has a single method, `.haikunate`:
 
 ```ruby
 Haikunator.haikunate # => "rough-snowflake-1142"
@@ -40,6 +42,20 @@ Haikunator.haikunate(9999, '.') # => "cool.leaf.6743"
 Haikunator.haikunate(0, ' ') # => "green fire"
 ```
 
+### Custom
+
+Using Haikunator with your custom adjectives and nouns is also simple. It works just like the default usage expect you pass in your `noun` and `adjective` arguments as arrays:
+
+```ruby
+# Use your own nouns array, specify nil if you are using the default token range delimiter
+nouns = ['football', 'cricket', 'rugby']
+Haikunator.haikunate(nil, nil, nil, nouns) # => "young-rugby-5397"
+
+# Use your own adjectives array, specify nil if you are using the default token range delimiter
+adjectives = ['happy', 'precious', 'shiny']
+Haikunator.haikunate(nil, nil, adjectives) # => "precious-snowflake-3578"
+```
+
 ## Contributing
 
 Everyone is encouraged to help improve this project. Here are a few ways you can help:
@@ -51,7 +67,7 @@ Everyone is encouraged to help improve this project. Here are a few ways you can
 
 ## Language Ports
 
-Haikunator has also been ported to other languages. Though, these projects are not 
+Haikunator has also been ported to other languages. Though, these projects are not
 affiliated with or endorsed by me, but check them out:
 
 - Go:
