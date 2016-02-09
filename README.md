@@ -49,11 +49,11 @@ Using Haikunator with your custom adjectives and nouns is also simple. It works 
 ```ruby
 # Use your own nouns array, specify nil if you are using the default token range delimiter
 nouns = ['football', 'cricket', 'rugby']
-Haikunator.haikunate(nil, nil, nouns) # => "young-rugby-5397"
+Haikunator.haikunate(nil, nil, nil, nouns) # => "young-rugby-5397"
 
 # Use your own adjectives array, specify nil if you are using the default token range delimiter
 adjectives = ['happy', 'precious', 'shiny']
-Haikunator.haikunate(nil, nil, nil, adjectives) # => "precious-snowflake-3578"
+Haikunator.haikunate(nil, nil, adjectives) # => "precious-snowflake-3578"
 ```
 
 ## Contributing
