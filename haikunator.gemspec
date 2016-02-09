@@ -6,8 +6,8 @@ require "haikunator/version"
 Gem::Specification.new do |spec|
   spec.name          = "haikunator"
   spec.version       = Haikunator::VERSION
-  spec.authors       = ["Xolani Mfuko", "Gerhard Koekemoer"]
-  spec.email         = ["xmfuko@gmail.com"]
+  spec.authors       = ["Usman Bashir"]
+  spec.email         = ["me@usmanbashir.com"]
   spec.summary       = "Heroku-like random name generator."
   spec.description   = "Generate memorable random names to use in your apps"\
                        " or anywhere else."
