@@ -51,7 +51,7 @@ Everyone is encouraged to help improve this project. Here are a few ways you can
 
 ## Language Ports
 
-Haikunator has also been ported to other languages. Though, these projects are not 
+Haikunator has also been ported to other languages. Though, these projects are not
 affiliated with or endorsed by me, but check them out:
 
 - Go:
@@ -75,3 +75,5 @@ affiliated with or endorsed by me, but check them out:
   - [HaikunatorDART](https://github.com/Atrox/haikunatordart)
 - Rust
   - [rust-haikunator](https://github.com/nishanths/rust-haikunator)
+- Crystal
+  - [Haikunator](https://github.com/sanata-/haikunator)
