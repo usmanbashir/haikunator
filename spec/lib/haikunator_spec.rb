@@ -37,4 +37,20 @@ describe Haikunator do
 
     expect(name).to match(/\A\w+ \w+\z/)
   end
+
+  it "config adjectives" do
+    adjectives = %w{good bad}
+    Haikunator.adjectives = adjectives
+    name = Haikunator.haikunate
+
+    expect(adjectives).to include(name.split('-')[0])
+  end
+
+  it "config nouns" do
+    nouns = %w{boy girl}
+    Haikunator.nouns = nouns
+    name = Haikunator.haikunate
+
+    expect(nouns).to include(name.split('-')[1])
+  end
 end
