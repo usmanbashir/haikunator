@@ -3,6 +3,10 @@ require "securerandom"
 
 module Haikunator
   class << self
+    
+    attr_writer :adjectives
+    attr_writer :nouns
+    
     def haikunate(token_range = 9999, delimiter = "-")
       build(token_range, delimiter)
     end
@@ -28,7 +32,7 @@ module Haikunator
     end
 
     def adjectives
-      %w(
+      @adjectives ||= %w(
         autumn hidden bitter misty silent empty dry dark summer
         icy delicate quiet white cool spring winter patient
         twilight dawn crimson wispy weathered blue billowing
@@ -41,7 +45,7 @@ module Haikunator
     end
 
     def nouns
-      %w(
+      @nouns ||= %w(
         waterfall river breeze moon rain wind sea morning
         snow lake sunset pine shadow leaf dawn glitter forest
         hill cloud meadow sun glade bird brook butterfly
