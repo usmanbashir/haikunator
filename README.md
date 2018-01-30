@@ -77,3 +77,5 @@ affiliated with or endorsed by me, but check them out:
   - [rust-haikunator](https://github.com/nishanths/rust-haikunator)
 - Crystal
   - [Haikunator](https://github.com/sanata-/haikunator)
+- R
+  - [Haikunator](http://github.com/amrrs/haikunator)
