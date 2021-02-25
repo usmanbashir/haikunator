@@ -48,7 +48,7 @@ module Haikunator
         bush dew dust field fire flower firefly feather grass
         haze mountain night pond darkness snowflake silence
         sound sky shape surf thunder violet water wildflower
-        wave water resonance sun wood dream cherry tree fog
+        wave water resonance sun log dream cherry tree fog
         frost voice paper frog smoke star
       )
     end
