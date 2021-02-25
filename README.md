@@ -79,3 +79,5 @@ affiliated with or endorsed by me, but check them out:
   - [Haikunator](https://github.com/sanata-/haikunator)
 - R
   - [Haikunator](http://github.com/amrrs/haikunator)
+- Clojure
+  - [clj-haikunator](https://github.com/staticweb-io/clj-haikunator)
