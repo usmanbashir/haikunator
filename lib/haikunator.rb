@@ -36,7 +36,7 @@ module Haikunator
         bold little muddy old red rough still small
         sparkling thrumming shy wandering withered wild black
         young holy solitary fragrant aged snowy proud floral
-        restless divine polished ancient purple lively nameless
+        restless divine polished ancient purple lively nameless 
       )
     end
 
@@ -49,7 +49,7 @@ module Haikunator
         haze mountain night pond darkness snowflake silence
         sound sky shape surf thunder violet water wildflower
         wave water resonance sun wood dream cherry tree fog
-        frost voice paper frog smoke star
+        frost voice paper frog smoke star stream dog cat fish bird
       )
     end
   end
