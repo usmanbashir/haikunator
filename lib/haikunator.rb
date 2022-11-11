@@ -37,6 +37,11 @@ module Haikunator
         sparkling thrumming shy wandering withered wild black
         young holy solitary fragrant aged snowy proud floral
         restless divine polished ancient purple lively nameless
+        dazzling brave happy enchanting gentle glorious handsome
+        marvelous classy calming beautiful amazing urban incredible
+        heavenly bright brilliant salty mystic adorable elegant
+        astonishing graceful charming hilarious fascinating delightful
+        clever captivating fierce fashionable exquisite breathtaking
       )
     end
 
@@ -50,6 +55,9 @@ module Haikunator
         sound sky shape surf thunder violet water wildflower
         wave water resonance sun log dream cherry tree fog
         frost voice paper frog smoke star
+        koala vegemite acai jungle beach desert chocolate deer
+        mature tiramisu island honey smoothie valley ocean earth
+        plains camel coffee tea cookies soup
       )
     end
   end
