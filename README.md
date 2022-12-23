@@ -81,3 +81,5 @@ affiliated with or endorsed by me, but check them out:
   - [Haikunator](http://github.com/amrrs/haikunator)
 - Clojure
   - [clj-haikunator](https://github.com/staticweb-io/clj-haikunator)
+- PL/pgSQL
+  - [haikunator-plpgsql](https://github.com/noqcks/haikunator-plpgsql)
