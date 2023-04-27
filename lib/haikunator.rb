@@ -34,7 +34,7 @@ module Haikunator
         twilight dawn crimson wispy weathered blue billowing
         broken cold damp falling frosty green long late lingering
         bold little morning muddy old red rough still small
-        sparkling thrumming shy wandering withered wild
+        sparkling thrumming shy wandering withered wild mature
         young holy solitary fragrant aged snowy proud floral
         restless divine polished ancient purple lively nameless
         dazzling brave happy enchanting gentle glorious handsome
@@ -56,7 +56,7 @@ module Haikunator
         wave water resonance sun log dream cherry tree fog
         frost voice paper frog smoke star
         koala vegemite acai jungle beach desert chocolate deer
-        mature tiramisu island honey smoothie valley ocean earth
+        tiramisu island honey smoothie valley ocean earth
         plains camel coffee tea cookies soup
       )
     end
