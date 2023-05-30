@@ -40,7 +40,7 @@ module Haikunator
         dazzling brave happy enchanting gentle glorious handsome
         marvelous classy calming beautiful amazing urban incredible
         heavenly bright brilliant salty mystic adorable elegant
-        astonishing graceful charming hilarious fascinating delightful
+        astonishing graceful charming gleaming fascinating delightful
         clever captivating fierce fashionable exquisite breathtaking
       )
     end
