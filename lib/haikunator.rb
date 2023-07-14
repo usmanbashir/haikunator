@@ -42,6 +42,8 @@ module Haikunator
         heavenly bright brilliant salty mystic adorable elegant
         astonishing graceful charming gleaming fascinating delightful
         clever captivating fierce fashionable exquisite breathtaking
+        exuberant serene majestic radiant melodic harmonious
+        captivating jubilant blissful zesty
       )
     end
 
@@ -57,7 +59,9 @@ module Haikunator
         frost voice paper frog smoke star
         koala vegemite acai jungle beach desert chocolate deer
         tiramisu island honey smoothie valley ocean earth
-        plains camel coffee tea cookies soup
+        plains camel coffee tea cookies soup dandelion sprinkles
+        snail lullaby platypus painting wallaby flamingo owl
+        otter fox pancake biscuit
       )
     end
   end
