@@ -37,4 +37,30 @@ describe Haikunator do
 
     expect(name).to match(/\A\w+ \w+\z/)
   end
+  
+  context "has excluded adjectives" do
+    before do
+      allow(Haikunator).to receive(:adjectives).and_return(["bad", "good"])
+    end
+    
+    it "should only haikunate with the non-excluded adjective" do
+      name = Haikunator.haikunate(0, " ", excluded_adjectives: ["bad"])
+      name_adjective, name_noun = name.downcase.split(" ")
+      
+      expect(name_adjective).to eql("good")
+    end
+  end
+  
+  context "has excluded nouns" do
+    before do
+      allow(Haikunator).to receive(:nouns).and_return(["bad", "good"])
+    end
+    
+    it "should only haikunate with the non-excluded adjective" do
+      name = Haikunator.haikunate(0, " ", excluded_nouns: ["bad"])
+      name_adjective, name_noun = name.downcase.split(" ")
+      
+      expect(name_noun).to eql("good")
+    end
+  end
 end

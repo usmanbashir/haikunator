@@ -3,16 +3,18 @@ require "securerandom"
 
 module Haikunator
   class << self
-    def haikunate(token_range = 9999, delimiter = "-")
-      build(token_range, delimiter)
+    def haikunate(token_range = 9999, delimiter = "-", excluded_nouns: [], excluded_adjectives: [])
+      build(token_range, delimiter, excluded_nouns: excluded_nouns, excluded_adjectives: excluded_adjectives)
     end
 
     private
 
-    def build(token_range, delimiter)
+    def build(token_range, delimiter, excluded_nouns: [], excluded_adjectives: [])
+      filtered_adjectives = excluded_adjectives.present? ? adjectives.filter {|a| !excluded_adjectives.include?(a) } : adjectives
+      filtered_nouns = excluded_nouns.present? ? nouns.filter {|n| !excluded_nouns.include?(n) } : nouns
       sections = [
-        adjectives[random_seed % adjectives.length],
-        nouns[random_seed % nouns.length],
+        filtered_adjectives[random_seed % filtered_adjectives.length],
+        filtered_nouns[random_seed % filtered_nouns.length],
         token(token_range)
       ]
 
